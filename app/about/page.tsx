@@ -17,7 +17,7 @@ export default function About() {
             <span className="gradient-text">À propos de Linesia Studios</span>
           </h1>
           <p className="text-xl text-gray-600 leading-relaxed">
-            Nous sommes une équipe passionnée dédiée à la création d'expériences de jeu exceptionnelles depuis 2021.
+            Nous sommes une équipe passionnée dédiée à la création d&apos;expériences de jeu exceptionnelles depuis 2021.
           </p>
         </motion.div>
 
@@ -31,16 +31,16 @@ export default function About() {
           <h2 className="text-3xl font-bold mb-6 text-gray-800">Notre Mission</h2>
           <p className="text-lg text-gray-600 leading-relaxed mb-4">
             Chez Linesia Studios, nous croyons que chaque joueur mérite une expérience de jeu unique et mémorable. 
-            Notre mission est de créer des serveurs qui repoussent les limites de l'innovation, tout en offrant 
+            Notre mission est de créer des serveurs qui repoussent les limites de l&apos;innovation, tout en offrant 
             un gameplay agréable et une communauté accueillante.
           </p>
           <p className="text-lg text-gray-600 leading-relaxed">
-            Nous nous efforçons constamment d'améliorer nos serveurs, d'écouter notre communauté et de développer 
-            de nouvelles fonctionnalités qui rendent l'expérience de jeu encore plus passionnante.
+            Nous nous efforçons constamment d&apos;améliorer nos serveurs, d&apos;écouter notre communauté et de développer 
+            de nouvelles fonctionnalités qui rendent l&apos;expérience de jeu encore plus passionnante.
           </p>
           <p className="text-lg text-gray-600 leading-relaxed mt-4">
-            Notre ambition ne s'arrête pas aux serveurs : nous avons pour objectif de créer nos propres jeux, 
-            en repoussant toujours plus loin les limites de la créativité et de l'innovation.
+            Notre ambition ne s&apos;arrête pas aux serveurs : nous avons pour objectif de créer nos propres jeux, 
+            en repoussant toujours plus loin les limites de la créativité et de l&apos;innovation.
           </p>
         </motion.div>
 
@@ -89,17 +89,17 @@ export default function About() {
             <p>
               Linesia Studios est né de la passion pour créer des expériences de jeu exceptionnelles. 
               Fondé en 2021, nous avons développé plusieurs serveurs Minecraft qui ont rassemblé 
-              des milliers de joueurs autour d'expériences uniques.
+              des milliers de joueurs autour d&apos;expériences uniques.
             </p>
             <p>
-              Aujourd'hui, nous continuons à innover avec des projets comme Renoria, notre serveur PvP 
+              Aujourd&apos;hui, nous continuons à innover avec des projets comme Renoria, notre serveur PvP 
               faction modé en développement, et Opale, notre futur serveur Hytale. Chaque projet représente 
               notre engagement à repousser les limites et à offrir le meilleur à notre communauté.
             </p>
             <p>
-              Notre vision s'étend au-delà des serveurs : nous aspirons à créer nos propres jeux, 
+              Notre vision s&apos;étend au-delà des serveurs : nous aspirons à créer nos propres jeux, 
               en combinant notre expertise technique et notre passion pour le game design. 
-              C'est cette ambition qui nous pousse chaque jour à créer, innover et repousser les frontières 
+              C&apos;est cette ambition qui nous pousse chaque jour à créer, innover et repousser les frontières 
               du possible dans le monde du jeu vidéo.
             </p>
           </div>

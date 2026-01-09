@@ -33,7 +33,7 @@ const Footer = () => {
               Créateurs de serveurs Minecraft et Hytale innovants et passionnants.
             </p>
             <p className="text-white/90 text-sm font-semibold italic">
-              "Vivre pour créer, pas pour gagner"
+              &quot;Vivre pour créer, pas pour gagner&quot;
             </p>
           </div>
 
