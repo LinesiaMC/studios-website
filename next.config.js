@@ -2,7 +2,14 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['linesia.net'],
+    domains: ['linesia.net', 'raw.githubusercontent.com'],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'raw.githubusercontent.com',
+        pathname: '/LinesiaMC/linesia-assets/**',
+      },
+    ],
   },
 }
 

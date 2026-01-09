@@ -75,10 +75,8 @@ Les couleurs principales sont définies dans `tailwind.config.ts` :
 
 ## 🌐 Déploiement
 
-Le site peut être déployé sur :
-- **Vercel** (recommandé pour Next.js)
-- **Netlify**
-- **Autres plateformes supportant Next.js**
+Le site est hébergé via **Vercel**, la plateforme recommandée pour Next.js qui offre un déploiement automatique, 
+des performances optimales et une intégration native avec GitHub.
 
 ---
 

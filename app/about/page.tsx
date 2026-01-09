@@ -17,7 +17,7 @@ export default function About() {
             <span className="gradient-text">À propos de Linesia Studios</span>
           </h1>
           <p className="text-xl text-gray-600 leading-relaxed">
-            Nous sommes une équipe passionnée dédiée à la création d'expériences de jeu exceptionnelles.
+            Nous sommes une équipe passionnée dédiée à la création d'expériences de jeu exceptionnelles depuis 2021.
           </p>
         </motion.div>
 
@@ -37,6 +37,10 @@ export default function About() {
           <p className="text-lg text-gray-600 leading-relaxed">
             Nous nous efforçons constamment d'améliorer nos serveurs, d'écouter notre communauté et de développer 
             de nouvelles fonctionnalités qui rendent l'expérience de jeu encore plus passionnante.
+          </p>
+          <p className="text-lg text-gray-600 leading-relaxed mt-4">
+            Notre ambition ne s'arrête pas aux serveurs : nous avons pour objectif de créer nos propres jeux, 
+            en repoussant toujours plus loin les limites de la créativité et de l'innovation.
           </p>
         </motion.div>
 
@@ -84,13 +88,19 @@ export default function About() {
           <div className="space-y-4 text-lg text-gray-600 leading-relaxed">
             <p>
               Linesia Studios est né de la passion pour créer des expériences de jeu exceptionnelles. 
-              Depuis nos débuts, nous avons développé plusieurs serveurs Minecraft qui ont rassemblé 
+              Fondé en 2021, nous avons développé plusieurs serveurs Minecraft qui ont rassemblé 
               des milliers de joueurs autour d'expériences uniques.
             </p>
             <p>
               Aujourd'hui, nous continuons à innover avec des projets comme Renoria, notre serveur PvP 
-              faction modé, et Opale, notre futur serveur Hytale. Chaque projet représente notre engagement 
-              à repousser les limites et à offrir le meilleur à notre communauté.
+              faction modé en développement, et Opale, notre futur serveur Hytale. Chaque projet représente 
+              notre engagement à repousser les limites et à offrir le meilleur à notre communauté.
+            </p>
+            <p>
+              Notre vision s'étend au-delà des serveurs : nous aspirons à créer nos propres jeux, 
+              en combinant notre expertise technique et notre passion pour le game design. 
+              C'est cette ambition qui nous pousse chaque jour à créer, innover et repousser les frontières 
+              du possible dans le monde du jeu vidéo.
             </p>
           </div>
         </motion.div>

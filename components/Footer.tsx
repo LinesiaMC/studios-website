@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -9,14 +10,30 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand */}
           <div>
-            <div className="flex items-center space-x-2 mb-4">
-              <div className="bg-white/20 w-10 h-10 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">L</span>
+            <div className="flex items-center space-x-3 mb-4">
+              <div className="relative h-10 w-10">
+                <Image
+                  src="https://raw.githubusercontent.com/LinesiaMC/linesia-assets/main/Logo%20simple%20L_03603.png"
+                  alt="Linesia Studios Logo"
+                  width={40}
+                  height={40}
+                  className="object-contain"
+                  onError={() => {
+                    const fallback = document.querySelector('.footer-logo-fallback') as HTMLElement;
+                    if (fallback) fallback.style.display = 'flex';
+                  }}
+                />
+                <div className="bg-white/20 w-10 h-10 rounded-lg flex items-center justify-center hidden footer-logo-fallback absolute inset-0">
+                  <span className="text-white font-bold text-xl">L</span>
+                </div>
               </div>
               <span className="text-2xl font-bold">Linesia Studios</span>
             </div>
-            <p className="text-white/80 text-sm">
+            <p className="text-white/80 text-sm mb-2">
               Créateurs de serveurs Minecraft et Hytale innovants et passionnants.
+            </p>
+            <p className="text-white/90 text-sm font-semibold italic">
+              "Vivre pour créer, pas pour gagner"
             </p>
           </div>
 
@@ -63,7 +80,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="https://linesia.net"
+                  href="https://discord.gg/linesia"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white/80 hover:text-white transition-colors text-sm"

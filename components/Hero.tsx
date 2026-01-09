@@ -27,9 +27,13 @@ const Hero = () => {
               <span className="gradient-text">Linesia Studios</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 mb-8 leading-relaxed">
-              Créateurs de serveurs Minecraft et Hytale innovants. 
+              Créateurs de serveurs Minecraft et Hytale innovants depuis 2021. 
               <br />
               Des expériences de jeu uniques qui repoussent les limites du possible.
+              <br />
+              <span className="text-lg text-primary-violet font-semibold mt-2 block">
+                Notre ambition : créer nos propres jeux.
+              </span>
             </p>
           </motion.div>
 

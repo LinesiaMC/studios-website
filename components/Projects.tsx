@@ -29,9 +29,9 @@ const projects = [
     name: "Renoria",
     description: "Un serveur PvP faction modé complet. Plongez dans un monde de stratégie, de combat et d'alliances.",
     type: "PvP Faction",
-    status: "Actif",
+    status: "En développement",
     color: "from-primary-pink to-primary-violet",
-    link: "https://linesia.net",
+    link: "https://discord.gg/linesia",
     features: ["Système de factions", "PvP intense", "Mods personnalisés"],
   },
   {
