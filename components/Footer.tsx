@@ -1,8 +1,12 @@
+"use client";
+
+import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
+  const [logoError, setLogoError] = useState(false);
 
   return (
     <footer className="bg-gradient-to-br from-primary-violet via-primary-purple to-primary-pink text-white mt-20">
@@ -12,20 +16,20 @@ const Footer = () => {
           <div>
             <div className="flex items-center space-x-3 mb-4">
               <div className="relative h-10 w-10">
-                <Image
-                  src="https://raw.githubusercontent.com/LinesiaMC/linesia-assets/main/Logo%20simple%20L_03603.png"
-                  alt="Linesia Studios Logo"
-                  width={40}
-                  height={40}
-                  className="object-contain"
-                  onError={() => {
-                    const fallback = document.querySelector('.footer-logo-fallback') as HTMLElement;
-                    if (fallback) fallback.style.display = 'flex';
-                  }}
-                />
-                <div className="bg-white/20 w-10 h-10 rounded-lg flex items-center justify-center hidden footer-logo-fallback absolute inset-0">
-                  <span className="text-white font-bold text-xl">L</span>
-                </div>
+                {!logoError ? (
+                  <Image
+                    src="https://raw.githubusercontent.com/LinesiaMC/linesia-assets/main/Logo%20simple%20L_03603.png"
+                    alt="Linesia Studios Logo"
+                    width={40}
+                    height={40}
+                    className="object-contain"
+                    onError={() => setLogoError(true)}
+                  />
+                ) : (
+                  <div className="bg-white/20 w-10 h-10 rounded-lg flex items-center justify-center">
+                    <span className="text-white font-bold text-xl">L</span>
+                  </div>
+                )}
               </div>
               <span className="text-2xl font-bold">Linesia Studios</span>
             </div>

@@ -8,6 +8,7 @@ import { motion, AnimatePresence } from "framer-motion";
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [logoError, setLogoError] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -36,20 +37,20 @@ const Header = () => {
         <div className="flex items-center justify-between h-20">
           <Link href="/" className="flex items-center space-x-3">
             <div className="relative h-10 w-10">
-              <Image
-                src="https://raw.githubusercontent.com/LinesiaMC/linesia-assets/main/Logo%20simple%20L_03603.png"
-                alt="Linesia Studios Logo"
-                width={40}
-                height={40}
-                className="object-contain"
-                onError={() => {
-                  const fallback = document.querySelector('.logo-fallback') as HTMLElement;
-                  if (fallback) fallback.style.display = 'flex';
-                }}
-              />
-              <div className="gradient-violet-pink w-10 h-10 rounded-lg flex items-center justify-center hidden logo-fallback absolute inset-0">
-                <span className="text-white font-bold text-xl">L</span>
-              </div>
+              {!logoError ? (
+                <Image
+                  src="https://raw.githubusercontent.com/LinesiaMC/linesia-assets/main/Logo%20simple%20L_03603.png"
+                  alt="Linesia Studios Logo"
+                  width={40}
+                  height={40}
+                  className="object-contain"
+                  onError={() => setLogoError(true)}
+                />
+              ) : (
+                <div className="gradient-violet-pink w-10 h-10 rounded-lg flex items-center justify-center">
+                  <span className="text-white font-bold text-xl">L</span>
+                </div>
+              )}
             </div>
             <span className="text-2xl font-bold gradient-text">Linesia Studios</span>
           </Link>
