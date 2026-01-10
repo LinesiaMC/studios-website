@@ -79,7 +79,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link href="/legal/cgu" className="text-white/80 hover:text-white transition-colors text-sm">
-                  Conditions Générales d&apos;Utilisation
+                  Conditions Générales d'Utilisation
                 </Link>
               </li>
               <li>

@@ -43,7 +43,7 @@ export default function Contact() {
             Contactez-nous
           </h1>
           <p className="text-xl text-gray-600 leading-relaxed">
-            Une question ? Une suggestion ? N&apos;hésitez pas à nous contacter !
+            Une question ? Une suggestion ? N'hésitez pas à nous contacter !
           </p>
         </motion.div>
 
@@ -86,8 +86,8 @@ export default function Contact() {
                       Discord
                     </h3>
                     <p className="text-gray-600 mb-4">
-                      Rejoignez notre serveur Discord pour discuter avec la communauté et l&apos;équipe, 
-                      obtenir de l&apos;aide en temps réel et suivre les dernières actualités.
+                      Rejoignez notre serveur Discord pour discuter avec la communauté et l'équipe, 
+                      obtenir de l'aide en temps réel et suivre les dernières actualités.
                     </p>
                     <motion.a
                       href="https://discord.gg/phQYe9Uv7Q"
@@ -131,7 +131,7 @@ export default function Contact() {
                   </p>
                   <p>
                     Pour les questions urgentes ou pour discuter directement avec notre équipe, 
-                    n&apos;hésitez pas à nous rejoindre sur Discord où nous sommes généralement disponibles.
+                    n'hésitez pas à nous rejoindre sur Discord où nous sommes généralement disponibles.
                   </p>
                 </div>
               </div>
@@ -149,13 +149,13 @@ export default function Contact() {
                 transition={{ duration: 3, repeat: Infinity, ease: "linear" }}
               />
               <div className="relative z-10">
-                <h3 className="text-xl font-bold mb-4 text-gray-800">Besoin d&apos;aide ?</h3>
+                <h3 className="text-xl font-bold mb-4 text-gray-800">Besoin d'aide ?</h3>
                 <p className="text-gray-600 mb-4">
                   Que ce soit pour un problème technique, une suggestion ou une question générale, 
                   notre équipe est là pour vous aider.
                 </p>
                 <p className="text-gray-600">
-                  N&apos;hésitez pas à nous contacter, nous serons ravis de vous répondre !
+                  N'hésitez pas à nous contacter, nous serons ravis de vous répondre !
                 </p>
               </div>
             </motion.div>

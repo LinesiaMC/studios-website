@@ -7,7 +7,7 @@ const projects = [
   {
     id: "linesia-eu",
     name: "Linesia EU",
-    description: "Un serveur kitmap qui cherche la nouveauté et un gameplay agréable. L&apos;expérience ultime pour les joueurs européens.",
+    description: "Un serveur kitmap qui cherche la nouveauté et un gameplay agréable. L'expérience ultime pour les joueurs européens.",
     type: "Kitmap",
     status: "Actif",
     color: "from-primary-violet to-primary-purple",
@@ -29,7 +29,7 @@ const projects = [
   {
     id: "renoria",
     name: "Renoria",
-    description: "Un serveur PvP faction modé complet. Plongez dans un monde de stratégie, de combat et d&apos;alliances.",
+    description: "Un serveur PvP faction modé complet. Plongez dans un monde de stratégie, de combat et d'alliances.",
     type: "PvP Faction",
     status: "En développement",
     color: "from-primary-pink via-primary-purple to-primary-violet",
