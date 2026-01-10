@@ -54,7 +54,6 @@ export default function About() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
           whileHover={{ scale: 1.01, y: -4 }}
-          transition={{ type: "spring", stiffness: 300 }}
           className="bg-gradient-to-br from-primary-violet/10 via-primary-purple/10 to-primary-pink/10 rounded-3xl p-8 md:p-12 mb-12 shadow-xl border border-primary-violet/20 backdrop-blur-sm relative overflow-hidden group"
         >
           {/* Effet de brillance animé */}
@@ -102,9 +101,8 @@ export default function About() {
               key={index}
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.3 + index * 0.1 }}
+              transition={{ duration: 0.6, delay: 0.3 + index * 0.1, type: "spring", stiffness: 300 }}
               whileHover={{ y: -8, scale: 1.02 }}
-              transition={{ type: "spring", stiffness: 300 }}
               className="bg-white/90 backdrop-blur-sm p-8 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 border border-gray-100/50 relative overflow-hidden group"
             >
               <div className="absolute inset-0 bg-gradient-to-br from-primary-violet/0 via-primary-purple/0 to-primary-pink/0 group-hover:from-primary-violet/8 group-hover:via-primary-purple/8 group-hover:to-primary-pink/8 transition-all duration-500 rounded-2xl pointer-events-none" />
@@ -130,11 +128,10 @@ export default function About() {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.6 }}
-              whileHover={{ scale: 1.02, y: -6 }}
-              transition={{ type: "spring", stiffness: 300 }}
-              className="bg-white/90 backdrop-blur-sm rounded-3xl p-8 md:p-12 shadow-xl border border-gray-100/50 relative overflow-hidden group"
-            >
+          transition={{ duration: 0.6, delay: 0.6, type: "spring", stiffness: 300 }}
+          whileHover={{ scale: 1.02, y: -6 }}
+          className="bg-white/90 backdrop-blur-sm rounded-3xl p-8 md:p-12 shadow-xl border border-gray-100/50 relative overflow-hidden group"
+        >
           {/* Effet de brillance animé */}
           <motion.div
             className="absolute inset-0 bg-gradient-to-r from-transparent via-primary-violet/5 to-transparent opacity-0 group-hover:opacity-100"

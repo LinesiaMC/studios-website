@@ -55,9 +55,8 @@ const Features = () => {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: index * 0.1 }}
+              transition={{ duration: 0.6, delay: index * 0.1, type: "spring", stiffness: 300 }}
               whileHover={{ y: -8, scale: 1.02 }}
-              transition={{ type: "spring", stiffness: 300 }}
               className="bg-white/90 backdrop-blur-sm p-8 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 border border-gray-100/50 relative overflow-hidden group"
             >
               {/* Effet de brillance au hover avec plus de profondeur */}
