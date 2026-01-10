@@ -25,14 +25,18 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
   const getLogoPath = () => {
     const baseUrl = "https://raw.githubusercontent.com/LinesiaMC/linesia-assets/main/";
     if (project.id === "linesia-eu" || project.id === "linesia-na") {
+      // Essayer plusieurs variantes pour Linesia
       return `${baseUrl}Linesia/Linesia_Logo_Simple.png`;
     }
     if (project.id === "renoria") {
+      // Logo Renoria depuis le dossier Renoria
       return `${baseUrl}Renoria/Renoria_Logo_Simple.png`;
     }
     if (project.id === "opale") {
+      // Logo Opale depuis le dossier Opale
       return `${baseUrl}Opale/Opale_Logo_Simple.png`;
     }
+    // Fallback vers le logo principal
     return `${baseUrl}l_new.PNG`;
   };
 
@@ -92,7 +96,13 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
             <div className="flex items-center gap-3 flex-wrap">
               <motion.span
                 whileHover={{ scale: 1.05 }}
-                className="px-3 py-1 bg-primary-violet/10 text-primary-violet rounded-full text-sm font-medium"
+                className={`px-3 py-1 rounded-full text-sm font-medium ${
+                  project.id === "linesia-eu" || project.id === "linesia-na"
+                    ? "bg-primary-violet/10 text-primary-violet"
+                    : project.id === "renoria"
+                    ? "bg-primary-pink/10 text-primary-pink"
+                    : "bg-primary-purple/10 text-primary-purple"
+                }`}
               >
                 {project.type}
               </motion.span>

@@ -134,7 +134,7 @@ export default function CGV() {
                 <br />
                 Email : <a href="mailto:support@linesia.net" className="text-primary-violet hover:underline">support@linesia.net</a>
                 <br />
-                Discord : <a href="https://discord.gg/linesia" target="_blank" rel="noopener noreferrer" className="text-primary-violet hover:underline">Rejoindre notre Discord</a>
+                Discord : <a href="https://discord.gg/phQYe9Uv7Q" target="_blank" rel="noopener noreferrer" className="text-primary-violet hover:underline">Rejoindre notre Discord</a>
               </p>
             </section>
 

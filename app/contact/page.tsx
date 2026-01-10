@@ -90,7 +90,7 @@ export default function Contact() {
                       obtenir de l&apos;aide en temps réel et suivre les dernières actualités.
                     </p>
                     <motion.a
-                      href="https://discord.gg/linesia"
+                      href="https://discord.gg/phQYe9Uv7Q"
                       target="_blank"
                       rel="noopener noreferrer"
                       whileHover={{ scale: 1.05 }}

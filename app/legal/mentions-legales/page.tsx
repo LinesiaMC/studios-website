@@ -30,7 +30,7 @@ export default function MentionsLegales() {
                 <br />
                 Email : <a href="mailto:support@linesia.net" className="text-primary-violet hover:underline text-gray-700">support@linesia.net</a>
                 <br />
-                Discord : <a href="https://discord.gg/linesia" target="_blank" rel="noopener noreferrer" className="text-primary-violet hover:underline text-gray-700">Rejoindre notre Discord</a>
+                Discord : <a href="https://discord.gg/phQYe9Uv7Q" target="_blank" rel="noopener noreferrer" className="text-primary-violet hover:underline text-gray-700">Rejoindre notre Discord</a>
               </p>
             </section>
 
@@ -103,7 +103,7 @@ export default function MentionsLegales() {
                 <br />
                 Email : <a href="mailto:support@linesia.net" className="text-primary-violet hover:underline text-gray-700">support@linesia.net</a>
                 <br />
-                Discord : <a href="https://discord.gg/linesia" target="_blank" rel="noopener noreferrer" className="text-primary-violet hover:underline text-gray-700">Rejoindre notre Discord</a>
+                Discord : <a href="https://discord.gg/phQYe9Uv7Q" target="_blank" rel="noopener noreferrer" className="text-primary-violet hover:underline text-gray-700">Rejoindre notre Discord</a>
               </p>
             </section>
 
