@@ -77,7 +77,7 @@ const Hero = () => {
               Créateurs de serveurs Minecraft et Hytale innovants depuis 2021, nous développons des expériences de jeu uniques qui repoussent les limites du possible. 
               <br className="hidden md:block" />
               <span className="mt-2 inline-block">
-                Notre vision s&apos;étend au-delà des serveurs : nous créons nos propres jeux pour offrir des univers encore plus immersifs et captivants.
+                Notre vision s'étend au-delà des serveurs : nous créons nos propres jeux pour offrir des univers encore plus immersifs et captivants.
               </span>
             </p>
           </motion.div>

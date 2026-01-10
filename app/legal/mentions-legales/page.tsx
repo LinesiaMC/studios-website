@@ -52,7 +52,7 @@ export default function MentionsLegales() {
             <section>
               <h2 className="text-2xl font-bold mb-4 text-gray-800">3. Propriété Intellectuelle</h2>
               <p className="text-gray-700">
-                L&apos;ensemble du contenu de ce site (textes, images, logos, graphismes, etc.) est la propriété 
+                L'ensemble du contenu de ce site (textes, images, logos, graphismes, etc.) est la propriété 
                 exclusive de Linesia Studios, sauf mention contraire. Toute reproduction, même partielle, est 
                 interdite sans autorisation préalable écrite.
               </p>
@@ -61,9 +61,9 @@ export default function MentionsLegales() {
             <section>
               <h2 className="text-2xl font-bold mb-4 text-gray-800">4. Responsabilité</h2>
               <p className="text-gray-700">
-                Linesia Studios s&apos;efforce d&apos;assurer l&apos;exactitude et la mise à jour des informations 
-                diffusées sur ce site. Toutefois, Linesia Studios ne peut garantir l&apos;exactitude, la précision 
-                ou l&apos;exhaustivité des informations mises à disposition sur ce site.
+                Linesia Studios s'efforce d'assurer l'exactitude et la mise à jour des informations 
+                diffusées sur ce site. Toutefois, Linesia Studios ne peut garantir l'exactitude, la précision 
+                ou l'exhaustivité des informations mises à disposition sur ce site.
               </p>
               <p className="text-gray-700">
                 En conséquence, Linesia Studios décline toute responsabilité pour toute imprécision, inexactitude 
@@ -74,7 +74,7 @@ export default function MentionsLegales() {
             <section>
               <h2 className="text-2xl font-bold mb-4 text-gray-800">5. Liens Externes</h2>
               <p className="text-gray-700">
-                Le site peut contenir des liens vers des sites externes. Linesia Studios n&apos;a aucun contrôle 
+                Le site peut contenir des liens vers des sites externes. Linesia Studios n'a aucun contrôle 
                 sur ces sites et décline toute responsabilité quant à leur contenu ou leur fonctionnement.
               </p>
             </section>
@@ -112,7 +112,7 @@ export default function MentionsLegales() {
                 href="/"
                 className="text-primary-violet hover:text-primary-purple transition-colors font-medium"
               >
-                ← Retour à l&apos;accueil
+                ← Retour à l'accueil
               </Link>
             </div>
           </div>
