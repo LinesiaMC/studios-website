@@ -29,8 +29,8 @@ export default function CGV() {
                 et toute personne effectuant un achat sur nos plateformes (boutiques en ligne, serveurs Minecraft, etc.).
               </p>
               <p>
-                Toute commande implique l'acceptation sans réserve des présentes conditions générales de vente. 
-                En cas de non-respect des conditions prévues ci-dessous, Linesia Studios se réserve le droit d'annuler 
+                Toute commande implique l&apos;acceptation sans réserve des présentes conditions générales de vente. 
+                En cas de non-respect des conditions prévues ci-dessous, Linesia Studios se réserve le droit d&apos;annuler 
                 ou de refuser la commande du client.
               </p>
             </section>
@@ -38,8 +38,8 @@ export default function CGV() {
             <section>
               <h2 className="text-2xl font-bold mb-4 text-gray-800">2. Objet</h2>
               <p>
-                Les présentes CGV s'appliquent à la vente de produits numériques et de services liés à nos serveurs 
-                Minecraft et Hytale, incluant mais sans s'y limiter : coins, rangs, objets cosmétiques, packs, 
+                Les présentes CGV s&apos;appliquent à la vente de produits numériques et de services liés à nos serveurs 
+                Minecraft et Hytale, incluant mais sans s&apos;y limiter : coins, rangs, objets cosmétiques, packs, 
                 et autres produits virtuels.
               </p>
             </section>
@@ -49,15 +49,15 @@ export default function CGV() {
               <p>
                 Les prix de nos produits sont indiqués en euros (€) toutes taxes comprises (TTC). Linesia Studios se réserve 
                 le droit de modifier ses prix à tout moment, étant toutefois entendu que le prix figurant au catalogue le jour 
-                de la commande sera le seul applicable à l'acheteur.
+                de la commande sera le seul applicable à l&apos;acheteur.
               </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-bold mb-4 text-gray-800">4. Commande et Paiement</h2>
               <p>
-                La validation de votre commande vaut acceptation des présentes conditions, reconnaissance d'avoir 
-                pleine connaissance de celles-ci et renonciation à se prévaloir de ses propres conditions d'achat.
+                La validation de votre commande vaut acceptation des présentes conditions, reconnaissance d&apos;avoir 
+                pleine connaissance de celles-ci et renonciation à se prévaloir de ses propres conditions d&apos;achat.
               </p>
               <p>
                 Les paiements sont sécurisés et peuvent être effectués par carte bancaire ou via les systèmes de paiement 
@@ -70,7 +70,7 @@ export default function CGV() {
               <h2 className="text-2xl font-bold mb-4 text-gray-800">5. Livraison</h2>
               <p>
                 Les produits numériques sont livrés instantanément après validation du paiement. En cas de problème de 
-                livraison, le client dispose d'un délai de 48 heures pour contacter notre service client à 
+                livraison, le client dispose d&apos;un délai de 48 heures pour contacter notre service client à 
                 <a href="mailto:support@linesia.net" className="text-primary-violet hover:underline"> support@linesia.net</a>.
               </p>
             </section>
@@ -79,10 +79,10 @@ export default function CGV() {
               <h2 className="text-2xl font-bold mb-4 text-gray-800">6. Droit de Rétractation</h2>
               <p>
                 Conformément à la législation en vigueur, les produits numériques ne sont pas soumis au droit de rétractation 
-                dès lors que l'exécution a commencé avec l'accord exprès du consommateur.
+                dès lors que l&apos;exécution a commencé avec l&apos;accord exprès du consommateur.
               </p>
               <p>
-                Toutefois, en cas d'erreur manifeste de notre part ou de non-livraison du produit, un remboursement 
+                Toutefois, en cas d&apos;erreur manifeste de notre part ou de non-livraison du produit, un remboursement 
                 pourra être envisagé dans les 14 jours suivant la commande.
               </p>
             </section>
@@ -92,16 +92,16 @@ export default function CGV() {
               <p>
                 Les produits achetés sont liés au compte Minecraft du joueur spécifié lors de la commande. 
                 Les transferts de produits entre comptes sont strictement interdits. Toute tentative de vente, 
-                d'échange ou de transfert de produits virtuels en dehors de nos plateformes est passible 
-                de sanctions pouvant aller jusqu'à la suspension définitive du compte.
+                d&apos;échange ou de transfert de produits virtuels en dehors de nos plateformes est passible 
+                de sanctions pouvant aller jusqu&apos;à la suspension définitive du compte.
               </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-bold mb-4 text-gray-800">8. Remboursements</h2>
               <p>
-                Les remboursements sont traités au cas par cas et uniquement en cas d'erreur de notre part 
-                ou de problème technique empêchant la livraison du produit. En cas d'erreur manifeste de notre 
+                Les remboursements sont traités au cas par cas et uniquement en cas d&apos;erreur de notre part 
+                ou de problème technique empêchant la livraison du produit. En cas d&apos;erreur manifeste de notre 
                 part ou de non-livraison du produit, un remboursement pourra être effectué dans un délai de 14 jours 
                 suivant la commande, après examen de la demande par notre équipe de support.
               </p>
@@ -114,8 +114,8 @@ export default function CGV() {
             <section>
               <h2 className="text-2xl font-bold mb-4 text-gray-800">9. Propriété Intellectuelle</h2>
               <p>
-                Tous les éléments du site, qu'ils soient visuels ou sonores, y compris la technologie sous-jacente, 
-                sont protégés par le droit d'auteur, des marques ou des brevets. Ils sont la propriété exclusive de Linesia Studios.
+                Tous les éléments du site, qu&apos;ils soient visuels ou sonores, y compris la technologie sous-jacente, 
+                sont protégés par le droit d&apos;auteur, des marques ou des brevets. Ils sont la propriété exclusive de Linesia Studios.
               </p>
             </section>
 
@@ -123,7 +123,7 @@ export default function CGV() {
               <h2 className="text-2xl font-bold mb-4 text-gray-800">10. Modification des CGV</h2>
               <p>
                 Linesia Studios se réserve le droit de modifier les présentes CGV à tout moment. Les nouvelles conditions 
-                s'appliquent aux commandes passées postérieurement à leur mise en ligne.
+                s&apos;appliquent aux commandes passées postérieurement à leur mise en ligne.
               </p>
             </section>
 
@@ -143,7 +143,7 @@ export default function CGV() {
                 href="/"
                 className="text-primary-violet hover:text-primary-purple transition-colors font-medium"
               >
-                ← Retour à l'accueil
+                ← Retour à l&apos;accueil
               </Link>
             </div>
           </div>

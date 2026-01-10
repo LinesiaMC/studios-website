@@ -35,7 +35,7 @@ export default function PolitiqueConfidentialite() {
               <h2 className="text-2xl font-bold mb-4 text-gray-800">2. Données Collectées</h2>
               <p>Nous collectons les données suivantes :</p>
               <ul className="list-disc list-inside space-y-2 ml-4">
-                <li>Nom d'utilisateur Minecraft</li>
+                <li>Nom d&apos;utilisateur Minecraft</li>
                 <li>Adresse email (pour les commandes et communications)</li>
                 <li>Adresse IP (pour la sécurité et la prévention des fraudes)</li>
                 <li>Données de connexion aux serveurs</li>
@@ -81,12 +81,12 @@ export default function PolitiqueConfidentialite() {
               <h2 className="text-2xl font-bold mb-4 text-gray-800">6. Vos Droits</h2>
               <p>Conformément au RGPD, vous disposez des droits suivants :</p>
               <ul className="list-disc list-inside space-y-2 ml-4">
-                <li>Droit d'accès à vos données personnelles</li>
-                <li>Droit de rectification de vos données</li>
-                <li>Droit à l'effacement de vos données</li>
-                <li>Droit à la limitation du traitement</li>
-                <li>Droit à la portabilité de vos données</li>
-                <li>Droit d'opposition au traitement</li>
+                  <li>Droit d&apos;accès à vos données personnelles</li>
+                  <li>Droit de rectification de vos données</li>
+                  <li>Droit à l&apos;effacement de vos données</li>
+                  <li>Droit à la limitation du traitement</li>
+                  <li>Droit à la portabilité de vos données</li>
+                  <li>Droit d&apos;opposition au traitement</li>
               </ul>
               <p>
                 Pour exercer ces droits, contactez-nous à : 
@@ -134,7 +134,7 @@ export default function PolitiqueConfidentialite() {
                 href="/"
                 className="text-primary-violet hover:text-primary-purple transition-colors font-medium"
               >
-                ← Retour à l'accueil
+                ← Retour à l&apos;accueil
               </Link>
             </div>
           </div>
