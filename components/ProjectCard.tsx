@@ -21,14 +21,18 @@ interface ProjectCardProps {
 const ProjectCard = ({ project }: ProjectCardProps) => {
   const [logoError, setLogoError] = useState(false);
   
-  // Construire le chemin du logo basé sur l'ID du projet
+  // Construire le chemin du logo basé sur l'ID du projet depuis linesia-assets
   const getLogoPath = () => {
     const baseUrl = "https://raw.githubusercontent.com/LinesiaMC/linesia-assets/main/";
     if (project.id === "linesia-eu" || project.id === "linesia-na") {
-      return `${baseUrl}l_new.PNG`;
+      return `${baseUrl}Linesia/Linesia_Logo_Simple.png`;
     }
-    // Pour Renoria et Opale, utiliser le logo principal en attendant des logos spécifiques
-    // Vous pouvez remplacer par les chemins exacts des logos dans leurs dossiers respectifs
+    if (project.id === "renoria") {
+      return `${baseUrl}Renoria/Renoria_Logo_Simple.png`;
+    }
+    if (project.id === "opale") {
+      return `${baseUrl}Opale/Opale_Logo_Simple.png`;
+    }
     return `${baseUrl}l_new.PNG`;
   };
 

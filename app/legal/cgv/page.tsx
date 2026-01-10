@@ -101,8 +101,13 @@ export default function CGV() {
               <h2 className="text-2xl font-bold mb-4 text-gray-800">8. Remboursements</h2>
               <p>
                 Les remboursements sont traités au cas par cas et uniquement en cas d&apos;erreur de notre part 
-                ou de problème technique empêchant la livraison du produit. Aucun remboursement ne sera effectué 
-                pour un changement d&apos;avis du client.
+                ou de problème technique empêchant la livraison du produit. En cas d&apos;erreur manifeste de notre 
+                part ou de non-livraison du produit, un remboursement pourra être effectué dans un délai de 14 jours 
+                suivant la commande, après examen de la demande par notre équipe de support.
+              </p>
+              <p>
+                Pour demander un remboursement, veuillez nous contacter à <a href="mailto:support@linesia.net" className="text-primary-violet hover:underline">support@linesia.net</a> 
+                en précisant votre numéro de commande et le motif de votre demande.
               </p>
             </section>
 

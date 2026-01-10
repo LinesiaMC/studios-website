@@ -20,24 +20,26 @@ export default function MentionsLegales() {
           <div className="prose prose-lg max-w-none space-y-6 text-gray-700">
             <section>
               <h2 className="text-2xl font-bold mb-4 text-gray-800">1. Éditeur du Site</h2>
-              <p>
-                Le site <strong>linesiastudios.net</strong> est édité par :
+              <p className="text-gray-700">
+                Le site <strong className="text-gray-900">studios.linesia.net</strong> est édité par :
               </p>
-              <p>
-                <strong>Linesia Studios</strong>
+              <p className="text-gray-700">
+                <strong className="text-gray-900">Linesia Studios</strong>
                 <br />
-                Email : <a href="mailto:support@linesia.net" className="text-primary-violet hover:underline">support@linesia.net</a>
+                Site web : <a href="https://studios.linesia.net" className="text-primary-violet hover:underline text-gray-700">studios.linesia.net</a>
                 <br />
-                Discord : <a href="https://discord.gg/linesia" target="_blank" rel="noopener noreferrer" className="text-primary-violet hover:underline">Rejoindre notre Discord</a>
+                Email : <a href="mailto:support@linesia.net" className="text-primary-violet hover:underline text-gray-700">support@linesia.net</a>
+                <br />
+                Discord : <a href="https://discord.gg/linesia" target="_blank" rel="noopener noreferrer" className="text-primary-violet hover:underline text-gray-700">Rejoindre notre Discord</a>
               </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-bold mb-4 text-gray-800">2. Hébergement</h2>
-              <p>
+              <p className="text-gray-700">
                 Le site est hébergé par :
                 <br />
-                <strong>Vercel Inc.</strong>
+                <strong className="text-gray-900">Vercel Inc.</strong>
                 <br />
                 340 S Lemon Ave #4133
                 <br />
@@ -49,7 +51,7 @@ export default function MentionsLegales() {
 
             <section>
               <h2 className="text-2xl font-bold mb-4 text-gray-800">3. Propriété Intellectuelle</h2>
-              <p>
+              <p className="text-gray-700">
                 L&apos;ensemble du contenu de ce site (textes, images, logos, graphismes, etc.) est la propriété 
                 exclusive de Linesia Studios, sauf mention contraire. Toute reproduction, même partielle, est 
                 interdite sans autorisation préalable écrite.
@@ -58,12 +60,12 @@ export default function MentionsLegales() {
 
             <section>
               <h2 className="text-2xl font-bold mb-4 text-gray-800">4. Responsabilité</h2>
-              <p>
+              <p className="text-gray-700">
                 Linesia Studios s&apos;efforce d&apos;assurer l&apos;exactitude et la mise à jour des informations 
                 diffusées sur ce site. Toutefois, Linesia Studios ne peut garantir l&apos;exactitude, la précision 
                 ou l&apos;exhaustivité des informations mises à disposition sur ce site.
               </p>
-              <p>
+              <p className="text-gray-700">
                 En conséquence, Linesia Studios décline toute responsabilité pour toute imprécision, inexactitude 
                 ou omission concernant les informations disponibles sur ce site.
               </p>
@@ -71,7 +73,7 @@ export default function MentionsLegales() {
 
             <section>
               <h2 className="text-2xl font-bold mb-4 text-gray-800">5. Liens Externes</h2>
-              <p>
+              <p className="text-gray-700">
                 Le site peut contenir des liens vers des sites externes. Linesia Studios n&apos;a aucun contrôle 
                 sur ces sites et décline toute responsabilité quant à leur contenu ou leur fonctionnement.
               </p>
@@ -79,16 +81,16 @@ export default function MentionsLegales() {
 
             <section>
               <h2 className="text-2xl font-bold mb-4 text-gray-800">6. Protection des Données</h2>
-              <p>
+              <p className="text-gray-700">
                 Les données personnelles collectées sur ce site sont traitées conformément à notre 
-                <Link href="/legal/politique-confidentialite" className="text-primary-violet hover:underline"> Politique de Confidentialité</Link> 
+                <Link href="/legal/politique-confidentialite" className="text-primary-violet hover:underline text-gray-700"> Politique de Confidentialité</Link> 
                 et conformément au Règlement Général sur la Protection des Données (RGPD).
               </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-bold mb-4 text-gray-800">7. Droit Applicable</h2>
-              <p>
+              <p className="text-gray-700">
                 Les présentes mentions légales sont régies par le droit français. En cas de litige, 
                 les tribunaux français seront seuls compétents.
               </p>
@@ -96,12 +98,12 @@ export default function MentionsLegales() {
 
             <section>
               <h2 className="text-2xl font-bold mb-4 text-gray-800">8. Contact</h2>
-              <p>
+              <p className="text-gray-700">
                 Pour toute question concernant ces mentions légales, vous pouvez nous contacter à :
                 <br />
-                Email : <a href="mailto:support@linesia.net" className="text-primary-violet hover:underline">support@linesia.net</a>
+                Email : <a href="mailto:support@linesia.net" className="text-primary-violet hover:underline text-gray-700">support@linesia.net</a>
                 <br />
-                Discord : <a href="https://discord.gg/linesia" target="_blank" rel="noopener noreferrer" className="text-primary-violet hover:underline">Rejoindre notre Discord</a>
+                Discord : <a href="https://discord.gg/linesia" target="_blank" rel="noopener noreferrer" className="text-primary-violet hover:underline text-gray-700">Rejoindre notre Discord</a>
               </p>
             </section>
 
