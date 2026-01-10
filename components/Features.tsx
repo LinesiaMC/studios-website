@@ -36,8 +36,8 @@ const Features = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            <span className="gradient-text">Pourquoi Linesia Studios ?</span>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gray-800">
+            Pourquoi Linesia Studios ?
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Nous créons des expériences de jeu exceptionnelles qui marquent les esprits.

@@ -12,8 +12,8 @@ export default function Contact() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16 max-w-3xl mx-auto"
         >
-          <h1 className="text-5xl md:text-6xl font-bold mb-6">
-            <span className="gradient-text">Contactez-nous</span>
+          <h1 className="text-5xl md:text-6xl font-bold mb-6 text-gray-800">
+            Contactez-nous
           </h1>
           <p className="text-xl text-gray-600 leading-relaxed">
             Une question ? Une suggestion ? N&apos;hésitez pas à nous contacter !
@@ -59,26 +59,12 @@ export default function Contact() {
                   href="https://discord.gg/linesia"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block px-6 py-3 gradient-violet-pink text-white rounded-full hover:opacity-90 transition-opacity font-semibold"
+                  className="inline-block px-6 py-3 bg-primary-violet text-white rounded-full hover:bg-primary-purple transition-colors font-semibold"
                 >
                   Rejoindre Discord →
                 </a>
               </div>
 
-              <div>
-                <h3 className="text-lg font-semibold mb-3 text-gray-800 flex items-center">
-                  <span className="text-2xl mr-3">🌐</span>
-                  Site Web
-                </h3>
-                <a
-                  href="https://linesia.net"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-primary-violet hover:underline"
-                >
-                  linesia.net
-                </a>
-              </div>
             </div>
           </motion.div>
 

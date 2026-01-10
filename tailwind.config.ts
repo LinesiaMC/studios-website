@@ -10,11 +10,26 @@ const config: Config = {
     extend: {
       colors: {
         primary: {
-          violet: "#8B5CF6",
-          purple: "#A855F7",
-          pink: "#EC4899",
-          light: "#F3F4F6",
+          // Couleurs principales basées sur linesia.net - Palette violet/purple/pink
+          violet: "#8B5CF6", // Violet principal
+          purple: "#A855F7", // Purple medium
+          pink: "#EC4899", // Pink accent
+          dark: "#0F172A", // Background sombre
+          darker: "#020617", // Background très sombre
+          light: "#F8FAFC", // Light background
           white: "#FFFFFF",
+          gray: {
+            50: "#F9FAFB",
+            100: "#F3F4F6",
+            200: "#E5E7EB",
+            300: "#D1D5DB",
+            400: "#9CA3AF",
+            500: "#6B7280",
+            600: "#4B5563",
+            700: "#374151",
+            800: "#1F2937",
+            900: "#111827",
+          },
         },
       },
       backgroundImage: {

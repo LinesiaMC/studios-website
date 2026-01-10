@@ -8,7 +8,12 @@
   }
   
   body {
-    @apply bg-primary-white;
+    @apply bg-white text-gray-900;
+  }
+  
+  /* Styles pour les sections avec fond sombre comme linesia.net */
+  .dark-section {
+    @apply bg-gradient-to-br from-primary-dark via-primary-darker to-primary-dark;
   }
 }
 

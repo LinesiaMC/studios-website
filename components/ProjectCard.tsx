@@ -77,18 +77,27 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
             href={project.link}
             target="_blank"
             rel="noopener noreferrer"
-            className={`inline-block px-6 py-3 bg-gradient-to-r ${project.color} text-white rounded-full hover:opacity-90 transition-opacity font-semibold`}
+            className="inline-block px-6 py-3 bg-primary-violet text-white rounded-full hover:bg-primary-purple transition-colors font-semibold"
           >
             Rejoindre le Discord →
+          </a>
+        ) : project.link !== "#" && project.link.includes("discord") ? (
+          <a
+            href={project.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block px-6 py-3 bg-primary-violet text-white rounded-full hover:bg-primary-purple transition-colors font-semibold"
+          >
+            Rejoindre Discord →
           </a>
         ) : project.link !== "#" ? (
           <a
             href={project.link}
             target="_blank"
             rel="noopener noreferrer"
-            className={`inline-block px-6 py-3 bg-gradient-to-r ${project.color} text-white rounded-full hover:opacity-90 transition-opacity font-semibold`}
+            className="inline-block px-6 py-3 bg-primary-violet text-white rounded-full hover:bg-primary-purple transition-colors font-semibold"
           >
-            Rejoindre le serveur →
+            Voir le projet →
           </a>
         ) : (
           <button

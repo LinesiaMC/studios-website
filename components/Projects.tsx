@@ -7,11 +7,11 @@ const projects = [
   {
     id: "linesia-eu",
     name: "Linesia EU",
-    description: "Un serveur kitmap qui cherche la nouveauté et un gameplay agréable. L'expérience ultime pour les joueurs européens.",
+    description: "Un serveur kitmap qui cherche la nouveauté et un gameplay agréable. L&apos;expérience ultime pour les joueurs européens.",
     type: "Kitmap",
     status: "Actif",
     color: "from-primary-violet to-primary-purple",
-    link: "https://linesia.net",
+    link: "https://discord.gg/linesia",
     features: ["Gameplay innovant", "Communauté active", "Événements réguliers"],
   },
   {
@@ -21,13 +21,13 @@ const projects = [
     type: "Kitmap",
     status: "Actif",
     color: "from-primary-purple to-primary-pink",
-    link: "https://linesia.net",
+    link: "https://discord.gg/linesia",
     features: ["Communauté internationale", "Support en anglais", "Gameplay optimisé"],
   },
   {
     id: "renoria",
     name: "Renoria",
-    description: "Un serveur PvP faction modé complet. Plongez dans un monde de stratégie, de combat et d'alliances.",
+    description: "Un serveur PvP faction modé complet. Plongez dans un monde de stratégie, de combat et d&apos;alliances.",
     type: "PvP Faction",
     status: "En développement",
     color: "from-primary-pink to-primary-violet",
@@ -41,7 +41,7 @@ const projects = [
     type: "Hytale",
     status: "En développement",
     color: "from-primary-violet via-primary-purple to-primary-pink",
-    link: "#",
+    link: "https://discord.gg/linesia",
     features: ["Nouvelle plateforme", "En développement", "Bientôt disponible"],
   },
 ];
@@ -57,8 +57,8 @@ const Projects = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            <span className="gradient-text">Nos Projets</span>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gray-800">
+            Nos Projets
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Découvrez nos serveurs et leurs univers uniques.

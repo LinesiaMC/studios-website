@@ -6,14 +6,14 @@ import Link from "next/link";
 const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
-      {/* Background Gradient */}
-      <div className="absolute inset-0 gradient-violet-pink opacity-10"></div>
+      {/* Background Gradient - Style linesia.net */}
+      <div className="absolute inset-0 bg-gradient-to-br from-primary-violet/5 via-primary-purple/5 to-primary-pink/5"></div>
       
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute top-20 left-10 w-72 h-72 bg-primary-pink rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-blob"></div>
-        <div className="absolute top-40 right-10 w-72 h-72 bg-primary-violet rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-blob animation-delay-2000"></div>
-        <div className="absolute -bottom-8 left-1/2 w-72 h-72 bg-primary-purple rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-blob animation-delay-4000"></div>
+        <div className="absolute top-20 left-10 w-72 h-72 bg-primary-violet/10 rounded-full mix-blend-multiply filter blur-xl opacity-30 animate-blob"></div>
+        <div className="absolute top-40 right-10 w-72 h-72 bg-primary-purple/10 rounded-full mix-blend-multiply filter blur-xl opacity-30 animate-blob animation-delay-2000"></div>
+        <div className="absolute -bottom-8 left-1/2 w-72 h-72 bg-primary-pink/10 rounded-full mix-blend-multiply filter blur-xl opacity-30 animate-blob animation-delay-4000"></div>
       </div>
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -23,8 +23,8 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <h1 className="text-5xl md:text-7xl font-bold mb-6">
-              <span className="gradient-text">Linesia Studios</span>
+            <h1 className="text-5xl md:text-7xl font-bold mb-6 text-gray-800">
+              Linesia Studios
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 mb-8 leading-relaxed">
               Créateurs de serveurs Minecraft et Hytale innovants depuis 2021. 
@@ -45,7 +45,7 @@ const Hero = () => {
           >
             <Link
               href="#projets"
-              className="px-8 py-4 gradient-violet-pink text-white rounded-full hover:opacity-90 transition-opacity font-semibold text-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-transform"
+              className="px-8 py-4 bg-primary-violet text-white rounded-full hover:bg-primary-purple transition-colors font-semibold text-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-transform"
             >
               Découvrir nos projets
             </Link>

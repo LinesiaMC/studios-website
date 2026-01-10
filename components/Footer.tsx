@@ -9,7 +9,7 @@ const Footer = () => {
   const [logoError, setLogoError] = useState(false);
 
   return (
-    <footer className="bg-gradient-to-br from-primary-violet via-primary-purple to-primary-pink text-white mt-20">
+    <footer className="bg-gradient-to-br from-primary-dark via-primary-darker to-primary-dark text-white mt-20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand */}
@@ -18,7 +18,7 @@ const Footer = () => {
               <div className="relative h-10 w-10">
                 {!logoError ? (
                   <Image
-                    src="https://raw.githubusercontent.com/LinesiaMC/linesia-assets/main/Logo%20simple%20L_03603.png"
+                    src="https://raw.githubusercontent.com/LinesiaMC/linesia-assets/main/l_new.PNG"
                     alt="Linesia Studios Logo"
                     width={40}
                     height={40}
@@ -72,16 +72,6 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold mb-4">Ressources</h3>
             <ul className="space-y-2">
-              <li>
-                <a
-                  href="https://linesia.net"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-white/80 hover:text-white transition-colors text-sm"
-                >
-                  Serveur Principal
-                </a>
-              </li>
               <li>
                 <a
                   href="https://discord.gg/linesia"

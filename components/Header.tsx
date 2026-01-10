@@ -39,7 +39,7 @@ const Header = () => {
             <div className="relative h-10 w-10">
               {!logoError ? (
                 <Image
-                  src="https://raw.githubusercontent.com/LinesiaMC/linesia-assets/main/Logo%20simple%20L_03603.png"
+                  src="https://raw.githubusercontent.com/LinesiaMC/linesia-assets/main/l_new.PNG"
                   alt="Linesia Studios Logo"
                   width={40}
                   height={40}
@@ -47,12 +47,12 @@ const Header = () => {
                   onError={() => setLogoError(true)}
                 />
               ) : (
-                <div className="gradient-violet-pink w-10 h-10 rounded-lg flex items-center justify-center">
+                <div className="bg-primary-violet w-10 h-10 rounded-lg flex items-center justify-center">
                   <span className="text-white font-bold text-xl">L</span>
                 </div>
               )}
             </div>
-            <span className="text-2xl font-bold gradient-text">Linesia Studios</span>
+            <span className="text-2xl font-bold text-gray-800">Linesia Studios</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -66,14 +66,6 @@ const Header = () => {
                 {link.label}
               </Link>
             ))}
-            <a
-              href="https://linesia.net"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-6 py-2 gradient-violet-pink text-white rounded-full hover:opacity-90 transition-opacity font-medium"
-            >
-              Serveur Principal
-            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -121,14 +113,6 @@ const Header = () => {
                   {link.label}
                 </Link>
               ))}
-              <a
-                href="https://linesia.net"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block px-6 py-2 gradient-violet-pink text-white rounded-full text-center hover:opacity-90 transition-opacity font-medium"
-              >
-                Serveur Principal
-              </a>
             </div>
           </motion.div>
         )}

@@ -63,9 +63,9 @@ Le site sera accessible sur [http://localhost:3000](http://localhost:3000)
 ## 🎨 Personnalisation
 
 Les couleurs principales sont définies dans `tailwind.config.ts` :
-- Violet : `#8B5CF6`
-- Purple : `#A855F7`
-- Pink : `#EC4899`
+- Violet : `#8B5CF6` (Violet principal)
+- Purple : `#A855F7` (Purple medium)
+- Pink : `#EC4899` (Pink accent)
 
 ## 📝 Notes
 

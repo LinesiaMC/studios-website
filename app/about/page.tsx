@@ -13,8 +13,8 @@ export default function About() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16 max-w-3xl mx-auto"
         >
-          <h1 className="text-5xl md:text-6xl font-bold mb-6">
-            <span className="gradient-text">À propos de Linesia Studios</span>
+          <h1 className="text-5xl md:text-6xl font-bold mb-6 text-gray-800">
+            À propos de Linesia Studios
           </h1>
           <p className="text-xl text-gray-600 leading-relaxed">
             Nous sommes une équipe passionnée dédiée à la création d&apos;expériences de jeu exceptionnelles depuis 2021.
