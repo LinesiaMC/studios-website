@@ -68,19 +68,29 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Social Links */}
+          {/* Legal Links */}
           <div>
-            <h3 className="font-semibold mb-4">Ressources</h3>
+            <h3 className="font-semibold mb-4">Légal</h3>
             <ul className="space-y-2">
               <li>
-                <a
-                  href="https://discord.gg/linesia"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-white/80 hover:text-white transition-colors text-sm"
-                >
-                  Discord
-                </a>
+                <Link href="/legal/cgv" className="text-white/80 hover:text-white transition-colors text-sm">
+                  Conditions Générales de Vente
+                </Link>
+              </li>
+              <li>
+                <Link href="/legal/cgu" className="text-white/80 hover:text-white transition-colors text-sm">
+                  Conditions Générales d&apos;Utilisation
+                </Link>
+              </li>
+              <li>
+                <Link href="/legal/politique-confidentialite" className="text-white/80 hover:text-white transition-colors text-sm">
+                  Politique de Confidentialité
+                </Link>
+              </li>
+              <li>
+                <Link href="/legal/mentions-legales" className="text-white/80 hover:text-white transition-colors text-sm">
+                  Mentions Légales
+                </Link>
               </li>
             </ul>
           </div>

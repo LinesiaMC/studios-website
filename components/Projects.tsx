@@ -13,6 +13,7 @@ const projects = [
     color: "from-primary-violet to-primary-purple",
     link: "https://discord.gg/linesia",
     features: ["Gameplay innovant", "Communauté active", "Événements réguliers"],
+    logo: "https://raw.githubusercontent.com/LinesiaMC/linesia-assets/main/Linesia/",
   },
   {
     id: "linesia-na",
@@ -23,6 +24,7 @@ const projects = [
     color: "from-primary-purple to-primary-pink",
     link: "https://discord.gg/linesia",
     features: ["Communauté internationale", "Support en anglais", "Gameplay optimisé"],
+    logo: "https://raw.githubusercontent.com/LinesiaMC/linesia-assets/main/Linesia/",
   },
   {
     id: "renoria",
@@ -33,6 +35,7 @@ const projects = [
     color: "from-primary-pink to-primary-violet",
     link: "https://discord.gg/linesia",
     features: ["Système de factions", "PvP intense", "Mods personnalisés"],
+    logo: "https://raw.githubusercontent.com/LinesiaMC/linesia-assets/main/Renoria/",
   },
   {
     id: "opale",
@@ -43,13 +46,46 @@ const projects = [
     color: "from-primary-violet via-primary-purple to-primary-pink",
     link: "https://discord.gg/linesia",
     features: ["Nouvelle plateforme", "En développement", "Bientôt disponible"],
+    logo: "https://raw.githubusercontent.com/LinesiaMC/linesia-assets/main/Opale/",
   },
 ];
 
 const Projects = () => {
   return (
-    <section id="projets" className="py-20 bg-white">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="projets" className="py-20 bg-gradient-to-b from-primary-light/30 via-white to-primary-light/30 relative overflow-hidden">
+      {/* Pattern de fond animé */}
+      <div className="absolute inset-0 opacity-[0.02] pointer-events-none">
+        <div className="absolute inset-0 bg-grid-pattern" />
+      </div>
+      
+      {/* Éléments flottants pour profondeur */}
+      <motion.div
+        className="absolute top-20 right-0 w-64 h-64 bg-primary-violet/5 rounded-full blur-3xl"
+        animate={{
+          scale: [1, 1.2, 1],
+          opacity: [0.3, 0.5, 0.3],
+        }}
+        transition={{
+          duration: 8,
+          repeat: Infinity,
+          ease: "easeInOut",
+        }}
+      />
+      <motion.div
+        className="absolute bottom-20 left-0 w-64 h-64 bg-primary-pink/5 rounded-full blur-3xl"
+        animate={{
+          scale: [1, 1.3, 1],
+          opacity: [0.3, 0.5, 0.3],
+        }}
+        transition={{
+          duration: 10,
+          repeat: Infinity,
+          ease: "easeInOut",
+          delay: 1,
+        }}
+      />
+      
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -65,14 +101,23 @@ const Projects = () => {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 relative">
+          {/* Effet de grille animé en arrière-plan */}
+          <div className="absolute inset-0 bg-grid-pattern opacity-[0.02] pointer-events-none" />
+          
           {projects.map((project, index) => (
             <motion.div
               key={project.id}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: index * 0.1 }}
+              initial={{ opacity: 0, y: 30, scale: 0.95 }}
+              whileInView={{ opacity: 1, y: 0, scale: 1 }}
+              viewport={{ once: true, margin: "-100px" }}
+              transition={{ 
+                duration: 0.6, 
+                delay: index * 0.15,
+                type: "spring",
+                stiffness: 100
+              }}
+              className="relative"
             >
               <ProjectCard project={project} />
             </motion.div>
